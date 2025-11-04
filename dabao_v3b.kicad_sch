@@ -5668,6 +5668,26 @@
 		)
 		(uuid "5c22309d-65f6-4d38-a2ba-71edc80ed4b7")
 	)
+	(text "Copyright 2025\nCERN OHL-W-2.0\nBaochip, Inc."
+		(exclude_from_sim no)
+		(at 386.588 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6cea8e1c-29a6-4c35-842a-3c634a372221")
+	)
+	(text "Dabao"
+		(exclude_from_sim no)
+		(at 328.168 261.112 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7139d147-8725-4403-bab8-f46b3ce7dcb4")
+	)
 	(text "press to toggle bootloader mode (also disconnects USB)"
 		(exclude_from_sim no)
 		(at 176.53 255.016 0)
