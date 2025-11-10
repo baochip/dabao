@@ -18230,7 +18230,7 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "v3b 10/25"
+	(gr_text "v3c 11/25"
 		(at 132 93.6 0)
 		(layer "B.SilkS")
 		(uuid "55ca8510-c67e-4347-a99c-e027945041dc")

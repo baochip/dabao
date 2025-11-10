@@ -516,7 +516,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "dabao_v3c.step",
       "svg": "",
       "vrml": ""
     },
