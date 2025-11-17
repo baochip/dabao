@@ -5,6 +5,113 @@
 	(uuid "30b97054-956f-4926-8f71-e9554821c3b2")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -5997,10 +6104,22 @@
 		(uuid "ccc141b5-3cb0-4e6d-b5fc-8d8a27a0f341")
 	)
 	(junction
+		(at 78.74 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d46a7e6e-15ad-4a64-a438-3efa09d6f98b")
+	)
+	(junction
 		(at 58.42 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbb1fba4-fb8c-467c-b0c0-a459f97aa462")
+	)
+	(junction
+		(at 81.28 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e19421f6-f224-4611-841f-4a687d4fda18")
 	)
 	(junction
 		(at 227.33 124.46)
@@ -6772,6 +6891,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 167.64) (xy 81.28 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f7adb4-64f9-448c-b664-af56c97fc355")
+	)
+	(wire
+		(pts
 			(xy 162.56 260.35) (xy 193.04 260.35)
 		)
 		(stroke
@@ -6929,6 +7058,16 @@
 			(type default)
 		)
 		(uuid "6397ad9b-89d4-45e1-ae2e-0a99b93dd918")
+	)
+	(wire
+		(pts
+			(xy 60.96 175.26) (xy 78.74 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6452b45e-b67b-41ca-88a1-19853b4f55ac")
 	)
 	(wire
 		(pts
@@ -7232,7 +7371,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 138.43) (xy 78.74 180.34)
+			(xy 78.74 138.43) (xy 78.74 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7302,7 +7441,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 146.05) (xy 81.28 180.34)
+			(xy 81.28 146.05) (xy 81.28 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7369,6 +7508,16 @@
 			(type default)
 		)
 		(uuid "9e7a5b93-9b83-462e-ad26-1f2fae5374bd")
+	)
+	(wire
+		(pts
+			(xy 66.04 167.64) (xy 81.28 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eae65dc-b009-4847-9298-d2d509916239")
 	)
 	(wire
 		(pts
@@ -7739,6 +7888,16 @@
 			(type default)
 		)
 		(uuid "cbb4d35a-e8db-4b4a-8fb6-9e03fee80eb9")
+	)
+	(wire
+		(pts
+			(xy 78.74 175.26) (xy 78.74 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd02bd71-505e-4a15-bf7c-1b017700e014")
 	)
 	(wire
 		(pts
@@ -11747,6 +11906,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4937190e-185d-4fb0-b773-08065fa9dfd7")
+		(property "Reference" "TP1"
+			(at 68.58 163.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.58 165.6079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 71.12 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee2dbcbf-d137-4ebf-b0c2-3cde2bd55260")
+		)
+		(instances
+			(project ""
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "common:root_3_Cap Semi")
 		(at 90.17 114.3 0)
 		(unit 1)
@@ -14981,6 +15207,73 @@
 			(project "dabao_v1"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90ff16de-4706-4e68-b045-db3fe7c1f411")
+		(property "Reference" "TP2"
+			(at 63.5 170.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 63.5 173.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e51293eb-7c9c-4ac0-97ef-529d17d7b710")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
